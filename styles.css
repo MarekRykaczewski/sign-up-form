@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 * {
-    border: solid red 1px;
+    /* border: solid red 1px; */
 }
 
 body {
     margin: 0;
     height: 100vh;
-
 }
 
 #main {
@@ -16,43 +15,49 @@ body {
     height: auto;
     justify-content: flex-start;
     flex: 1;
-
 }
 
 #side {
     display: flex;
     flex: 1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 15vh;
     height: 100vh;
-    background-color: #03021A;
+    background-color: #11111A ;
     color: white;
     font-family: Nunito;
 }
 
-#side-items {
-    padding: 30px;
-}
-
 #introduction {
     font-size: 1.5em;
+    margin: 50px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: #09090E;
+    padding-left: 50px;
 }
 
 .picture {
     height: 100vh;
     background-image: url(./picture.jpg);
     background-position: center;
-    background-size: 110%;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
 }
 
 input, label {
     display: block;
+}
+
+#names, #contact, #passwords {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
 }
