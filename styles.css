@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+}
+
 #main {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    height: 100vh;
+
 }
 
 form {
@@ -10,15 +15,10 @@ form {
     gap: 20px;
 }
 
-.fill {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.fill img {
-    height: 100vh;
-    width: auto;
+.picture {
+    background-image: url(./picture.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 35vw;
 }
