@@ -4,13 +4,26 @@
 
 body {
     margin: 0;
+    height: 100vh;
+
 }
 
 #main {
     display: flex;
     flex-direction: row;
-    height: 100vh;
+    height: auto;
+    justify-content: flex-start;
+    flex: 1;
 
+}
+
+#side {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    
 }
 
 form {
@@ -20,9 +33,10 @@ form {
 }
 
 .picture {
+    height: 100vh;
     background-image: url(./picture.jpg);
     background-position: center;
     background-size: 110%;
     background-repeat: no-repeat;
-    width: 35vw;
+    width: 40vw;
 }
