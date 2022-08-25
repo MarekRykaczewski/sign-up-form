@@ -17,6 +17,25 @@ body {
     flex: 1;
 }
 
+.logo {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    top: 20vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 50px;
+    gap: 20px;
+}
+
+#ramen {
+    height: 10vh;
+    padding: 10px;
+}
+
 #side {
     display: flex;
     flex: 1;
