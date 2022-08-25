@@ -49,6 +49,7 @@ body {
 #introduction {
     font-size: 1.5em;
     margin: 50px;
+    width: 35vw;
 }
 
 form {
