@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 15vh;
-    height: 100vh;
+    height: auto;
     background-color: #11111A ;
     color: white;
     font-family: Nunito;
