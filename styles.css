@@ -1,0 +1,24 @@
+#main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fill img {
+    height: 100vh;
+    width: auto;
+}

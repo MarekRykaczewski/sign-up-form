@@ -7,34 +7,55 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 
-    <div>
-    <p> This is not a real online service!
-        You know you need something like this in your life
-        to help you realize your deepest dreams.
-    </p>
-    <p> Sign up span now to get started.</p>
-    <p>You know you want to.</p>
-    </div>
-    <div>
-        <h1> Let's do this! </h1>
-        <form action="post">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value=""><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value=""><br>
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-            <label for="pass">Password:</label>
-            <input type="password" id="pass" name="password">
-            <label for="pass">Confirm Password:</label>
-            <input type="password" id="pass_confirm" name="password_confirm">
 
-            <button>Create Account</button>
-            <p>Already have an account? <span> Log in </span> </p>
-        </form>
+    <div id="main">
+        <div class="fill">
+            <img src="picture.jpg" alt="">
+            <a href="https://unsplash.com/@klngr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Graham Klingler</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </div>
+        <div>
+            <div>
+                <p> This is not a real online service!
+                    You know you need something like this in your life
+                    to help you realize your deepest dreams.
+                </p>
+                <p> Sign up span now to get started.</p>
+                <p>You know you want to.</p>
+            </div>
+            <h1> Let's do this! </h1>
+            <form action="post">
+                <div id="names">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" value="">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" value="">
+                </div>
+                <div id="contact">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                </div>
+                <div id="passwords">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" name="password">
+                    <label for="pass">Confirm Password:</label>
+                    <input type="password" id="pass_confirm" name="password_confirm">
+
+                </div>
+
+                
+
+    
+                <button>Create Account</button>
+                <p>Already have an account? <span> Log in </span> </p>
+            </form>
+
+        </div>
+
     </div>
 
-    <a href="https://unsplash.com/@klngr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Graham Klingler</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   
 </head>
 <body>
     
