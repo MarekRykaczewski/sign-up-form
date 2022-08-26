@@ -66,11 +66,11 @@
                 <div id="passwords">
                     <div>
                     <label for="pass">Password:</label>
-                    <input type="password" id="pass" name="password">
+                    <input type="password" id="pass" name="password" required pattern ="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                     </div>
                     <div>
                     <label for="pass">Confirm Password:</label>
-                    <input type="password" id="pass_confirm" name="password_confirm">
+                    <input type="password" id="pass_confirm" name="password_confirm" required pattern ="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                     </div>
                 </div>
                 </div>

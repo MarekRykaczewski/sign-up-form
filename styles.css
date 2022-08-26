@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 * {
     /* border: solid red 1px; */
@@ -74,6 +75,7 @@ form {
     background-size: cover;
     background-repeat: no-repeat;
     width: 40vw;
+    font-family: Aboreto;
 }
 
 input, label {
@@ -89,6 +91,15 @@ input {
     color: white;
     font-family: Nunito;
     font-size: 1.2em;
+}
+
+input:focus {
+    border: 0px;
+    outline: 1px solid #dab200;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 #names, #contact, #passwords {
