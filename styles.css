@@ -81,11 +81,13 @@ input, label {
 }
 
 input {
-    height: 25px;
+    height: 30px;
     width: 250px;
-    background-color:#52607c;
-    border: 1px solid #161721;
+    background-color:#161721;
     border-radius: 5px;
+    border: 0;
+    color: white;
+    font-family: Nunito;
 }
 
 #names, #contact, #passwords {
@@ -113,7 +115,7 @@ button {
 }
 
 span {
-    color: yellow;
+    color: #dab200;
 }
 
 a {
@@ -129,4 +131,5 @@ a {
     color: white;
     text-decoration: none;
     align-self: center;
+    font-family: Nunito;
 }
