@@ -85,9 +85,10 @@ input {
     width: 250px;
     background-color:#161721;
     border-radius: 5px;
-    border: 0;
+    border: 1px solid #7f848f;
     color: white;
     font-family: Nunito;
+    font-size: 1.2em;
 }
 
 #names, #contact, #passwords {
